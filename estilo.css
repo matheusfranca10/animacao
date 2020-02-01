@@ -1,0 +1,47 @@
+@keyframes animacao-caixa {
+	/*from {
+		background: red;
+		border-radius: 0px;
+		top: 0px;
+		left: 0px;
+	}
+
+	to {
+		background: blue;
+		border-radius: 300px;
+		top: 200px;
+		left: 200px;*/
+	0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+
+}
+
+
+#caixa {
+	width: 300px;
+	height: 300px;
+	background: red;
+	position: relative;
+	animation-name: animacao-caixa;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	text-indent: -3000px;
+}
+
+
+
+#caixa:hover {
+	text-indent: 0;
+}
+
+
+h2 {
+	font-size: 200px;
+	text-align: center;
+}
+
