@@ -1,16 +1,4 @@
 @keyframes animacao-caixa {
-	/*from {
-		background: red;
-		border-radius: 0px;
-		top: 0px;
-		left: 0px;
-	}
-
-	to {
-		background: blue;
-		border-radius: 300px;
-		top: 200px;
-		left: 200px;*/
 	0%   {background-color:red; left:0px; top:0px;}
   25%  {background-color:yellow; left:200px; top:0px;}
   50%  {background-color:blue; left:200px; top:200px;}
